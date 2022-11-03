@@ -16,6 +16,7 @@
 		68BAFAF72913FD4C0009B3FA /* daysPhasesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BAFAF62913FD4C0009B3FA /* daysPhasesUITests.swift */; };
 		68BAFAF92913FD4C0009B3FA /* daysPhasesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BAFAF82913FD4C0009B3FA /* daysPhasesUITestsLaunchTests.swift */; };
 		68FF511D2913FE6F009EAD28 /* DaysPhasesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FF511C2913FE6F009EAD28 /* DaysPhasesView.swift */; };
+		68FF5121291403B8009EAD28 /* ViewCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FF5120291403B7009EAD28 /* ViewCodable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		68BAFAF62913FD4C0009B3FA /* daysPhasesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = daysPhasesUITests.swift; sourceTree = "<group>"; };
 		68BAFAF82913FD4C0009B3FA /* daysPhasesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = daysPhasesUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		68FF511C2913FE6F009EAD28 /* DaysPhasesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysPhasesView.swift; sourceTree = "<group>"; };
+		68FF5120291403B7009EAD28 /* ViewCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCodable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		68BAFAD42913FD4A0009B3FA /* daysPhases */ = {
 			isa = PBXGroup;
 			children = (
+				68FF511E2914039F009EAD28 /* Config */,
 				68FF511B2913FE39009EAD28 /* Controller */,
 				68FF511A2913FE34009EAD28 /* View */,
 				68BAFAD52913FD4A0009B3FA /* AppDelegate.swift */,
@@ -141,6 +144,14 @@
 				68BAFAD92913FD4A0009B3FA /* ViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		68FF511E2914039F009EAD28 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				68FF5120291403B7009EAD28 /* ViewCodable.swift */,
+			);
+			path = Config;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68FF5121291403B8009EAD28 /* ViewCodable.swift in Sources */,
 				68BAFADA2913FD4A0009B3FA /* ViewController.swift in Sources */,
 				68BAFAD62913FD4A0009B3FA /* AppDelegate.swift in Sources */,
 				68BAFAD82913FD4A0009B3FA /* SceneDelegate.swift in Sources */,
